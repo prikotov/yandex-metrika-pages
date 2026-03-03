@@ -1,8 +1,6 @@
 ---
 name: yandex-metrika-pages
 description: Статистика по страницам сайта из Яндекс.Метрики
-license: MIT
-compatibility: opencode
 ---
 
 ## Когда использовать
