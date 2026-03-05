@@ -150,10 +150,10 @@ if ($args['limit'] !== null) {
 }
 echo "\n";
 
-MetrikaClient::saveCsv($pages, "$reportPath/pages_$timestamp.csv");
-MetrikaClient::saveMarkdown($pages, "$reportPath/pages_$timestamp.md", $label, $args['dateFrom'], $args['dateTo']);
+MetrikaClient::saveCsv($pages, "$reportPath/yandex_metrika_pages_$timestamp.csv");
+MetrikaClient::saveMarkdown($pages, "$reportPath/yandex_metrika_pages_$timestamp.md", $label, $args['dateFrom'], $args['dateTo']);
 
 echo "  Создано файлов:\n";
-echo "    - pages_$timestamp.csv\n";
-echo "    - pages_$timestamp.md\n";
+echo "    - yandex_metrika_pages_$timestamp.csv\n";
+echo "    - yandex_metrika_pages_$timestamp.md\n";
 echo "\n  Найдено страниц: " . count($pages) . "\n";

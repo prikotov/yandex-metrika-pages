@@ -62,7 +62,7 @@ php .opencode/skills/yandex-metrika-pages/pages.php -l 10 2025-01-01 2025-01-31
 ## Результат
 
 `yandex_metrika_reports/YYYY-MM-DD/`:
-- `pages_YYYY-MM-DD_HH-MM-SS.csv` / `.md` — статистика по страницам
+- `yandex_metrika_pages_YYYY-MM-DD_HH-MM-SS.csv` / `.md` — статистика по страницам
 
 ### Поля в отчете
 

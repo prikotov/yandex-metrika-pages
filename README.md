@@ -16,7 +16,7 @@
 
 | Файл | Содержание |
 |------|------------|
-| `pages_*.*` | Страницы с метриками: просмотры, посетители, отказы и др. |
+| `yandex_metrika_pages_*.*` | Страницы с метриками: просмотры, посетители, отказы и др. |
 
 ## Зависимости
 
@@ -80,8 +80,8 @@ php .opencode/skills/yandex-metrika-pages/pages.php --type exit --sort bounce_ra
 ```
 yandex_metrika_reports/
 └── 2026-03-03/
-    ├── pages_2026-03-03_10-30-15.csv
-    └── pages_2026-03-03_10-30-15.md
+    ├── yandex_metrika_pages_2026-03-03_10-30-15.csv
+    └── yandex_metrika_pages_2026-03-03_10-30-15.md
 ```
 
 CSV открывается в Excel/LibreOffice, Markdown — в любом текстовом редакторе или напрямую в Obsidian.
