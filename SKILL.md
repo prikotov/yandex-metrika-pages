@@ -24,6 +24,7 @@ php .opencode/skills/yandex-metrika-pages/pages.php [опции] [дата_от]
 
 | Опция | Сокращение | Описание | Значения | По умолчанию |
 |-------|------------|----------|----------|--------------|
+| `--site` | | Имя сайта из конфига | имя сайта | default_counter |
 | `--type` | `-t` | Тип страниц | `page`, `entry`, `exit` | `page` |
 | `--sort` | `-s` | Поле сортировки | `visits`, `visitors`, `pageviews`, `bounce_rate`, `page_depth`, `avg_duration` | `visits` |
 | `--order` | `-o` | Направление сортировки | `asc`, `desc` | `desc` |
@@ -42,6 +43,9 @@ php .opencode/skills/yandex-metrika-pages/pages.php [опции] [дата_от]
 ```bash
 # Топ страниц по визитам
 php .opencode/skills/yandex-metrika-pages/pages.php
+
+# Для конкретного сайта
+php .opencode/skills/yandex-metrika-pages/pages.php --site task.ai-aid.pro
 
 # Топ-20 страниц входа
 php .opencode/skills/yandex-metrika-pages/pages.php -t entry -l 20

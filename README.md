@@ -42,6 +42,9 @@ git clone https://github.com/prikotov/yandex-metrika-pages.git .opencode/skills/
 # Топ страниц по просмотрам
 php .opencode/skills/yandex-metrika-pages/pages.php
 
+# Для конкретного сайта
+php .opencode/skills/yandex-metrika-pages/pages.php --site task.ai-aid.pro
+
 # Топ-20 страниц входа
 php .opencode/skills/yandex-metrika-pages/pages.php -t entry -l 20
 
