@@ -78,7 +78,7 @@ php .opencode/skills/yandex-metrika-pages/pages.php --type exit --sort bounce_ra
 Отчёты сохраняются в папку с датой:
 
 ```
-metrika_reports/
+yandex_metrika_reports/
 └── 2026-03-03/
     ├── pages_2026-03-03_10-30-15.csv
     └── pages_2026-03-03_10-30-15.md
